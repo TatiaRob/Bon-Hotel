@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "ubuntu", sans-serif;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+
+}
+
+.Header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.nav-link{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #957554;
+    text-decoration: none;
+
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+
+}
+
+.first-section{
+background-image: url(./photos/background.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 80px;
+
+
+}
+
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 50px;
+
+}
+
+.main-title{
+    font-family: "ubuntu", sans-serif;
+
+font-size: 80px;
+font-weight: 700;
+line-height: 92px;
+color: #FFFFFF;
+
+
+}
+
+.description,
+.button,
+.footer-nav-link{
+font-family: "Ubuntu", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+color:  #FFFFFF;
+
+}
+
+.button{
+ font-family: Ubuntu;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+background-color: #DFAA5B;
+text-decoration: none;
+padding: 25.24px 133px;
+border-radius: 10px;
+}
+
+.secondary-title{
+font-family: Ubuntu, sans-serif;
+font-size: 45px;
+font-weight: 500;
+line-height: 52px;
+
+color: #957554;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.rooms-card{
+    width: 630%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rooms-card > img {
+
+   
+
+    /* 100ები ძაან მიდიდებს  */
+    
+    object-fit: cover;
+
+}
+
+.cards-content1 {
+
+    position: absolute;
+    left: 10%;
+   top: 200%;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+
+.cards-content2 {
+
+    position: absolute;
+    left: 60%;
+   top: 200%;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;}
+
+    .cards-content3 {
+
+        position: absolute;
+        left: 10%;
+       top: 288%;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        align-items: center;}
+
+        .cards-content4 {
+
+            position: absolute;
+            left: 60%;
+           top: 288%;
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            align-items: center;}
+
+.card-title {
+
+font-family: Ubuntu, sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 46px;
+color:  #FFFFFF;
+
+}
+
+.button.button-small{
+    padding: 24px, 53px, 24px, 54px;
+
+}
+
+.overlay{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 7.48%, #000000 100%);
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 59px;
+}
+
+.button2{
+
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+background-color: #DFAA5B;
+text-decoration: none;
+padding: 25.24px 133px;
+border-radius: 10px;
+
+     position: absolute;
+            left: 35%;
+           top: 330%;
+            display: flex;
+    
+            gap: 19px;
+            align-items: center;
+            margin-bottom: 145px;
+
+}
+
+.third-section{
+    margin-bottom: 145px;
+}
+
+
+
+.footer{
+    background: #111111;
+
+    padding: 51px  0px 2159px;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 146px;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 52px 123px 159px 55px;
+
+    
+}
+
+
+.footer-content img{
+    width: 154px;
+    height: 126px;
+
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-navigation a {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+
+}
+
+.footer-text{
+
+display: flex;
+flex-direction: column;
+color:  #FFFFFF;
+
+
+}
+
+.footer-text p{
+   
+
+font-family: Ubuntu;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.footer-text a{
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+
+.footer-nav-link{
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+
+
+}
+
+.news-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    grid-template-rows: 500px;
+
+    margin-bottom: 50px;
+
+}
+
+.news-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.news-card-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 44px;
+
+}
+
+
+.news-card-content h3{
+    color:  #957554;
+    
+}
+
+.news-card-content p{
+    color:  #000000;
+    font-family: Ubuntu;
+font-size: 40px;
+font-weight: 500;
+line-height: 46px;
+
+
+}
+
+.news-card:nth-child(2n) img {
+    order: 1;
+
+
+}
+
+.news-card:nth-child(2n) .news-card-content{
+    align-items: end;
+}
+
+.news-card:nth-child(2n) .news-card-content p{
+    text-align: right;
+}
+
+
+.gallery-img12 {
+    display: flex;
+    flex-direction: row;
+   gap: 30px;
+   
+}
+
+.gallery-img34{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.gallery-grid{
+   
+    margin-bottom: 104px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
